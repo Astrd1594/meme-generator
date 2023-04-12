@@ -1,0 +1,68 @@
+body{
+    color: white !important;
+    background-color: rgb(25, 25, 35);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+button{
+    width: 200px;
+    height: 75px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    border-width: 0px;
+    border-radius: 10px;
+}
+button:hover{
+    transition: all 0.05s ease-in-out !important;
+    cursor: pointer;
+    transition: all 0.1s ease-out !important;
+}
+#pointingfingerimage{
+    border-radius: 20px;
+}
+#hello{
+    background-color: rgb(25, 45, 37);
+    transition: all 0.1s ease-in-out !important;
+}
+#hello:hover{
+    transition: all 0.05s ease-in-out !important;
+    background-color:rgb(48, 163, 115);
+    cursor: pointer;
+    transition: all 0.1s ease-out !important;
+}
+#yes{
+    background-color: rgb(38, 46, 103);
+    transition: all 0.1s ease-in-out !important;
+}
+#yes:hover{
+    background-color: rgb(63, 83, 232);
+    transition: all 0.1s ease-in-out;
+}
+#no{
+    transition: all 0.1s ease-in-out !important;
+    background-color: #7a5901;
+    cursor: default;
+}
+#rickrollbutton{
+    transition: all 0.1s ease-in-out !important;
+    background-color: rgb(142, 20, 20) !important;
+    color: white;
+}
+#rickrollbutton:hover{
+    transition: all 0.1s ease-in-out !important;
+    background-color: rgb(243, 63, 63) !important;
+}
+#meme{
+    background-color: rgb(120, 49, 108);
+    transition: all 0.1s ease-in-out !important;
+}
+#meme:hover{
+    background-color:rgb(198, 68, 176);
+    transition: all 0.1s ease-in-out !important;
+}
+#meme:active{
+    background-color:rgb(62, 19, 55);
+    width: 190px;
+    height: 70px;
+    font-size: 23px;
+}
